@@ -8,6 +8,17 @@
 pip install -r requirements.txt
 ```
 
+Links to articles to be summarised can be added to the list in `article_urls.py`.
+
+Running all cells in `test1.ipynb` will produce summaries for each article in the list. This output is too large to be viewed within the notebook, so it is recommended that output is opened as a text file (the notebook will prompt you to do this) - word wrap the text for quality of life (Alt+Z in VSCode)
+
+The output is structures as follows:
+
+-   Summaries
+-   -   Small Model Summary
+-   -   Large Model Summary
+-   Article Text
+
 ### Useful links
 
 [SpaCy](https://spacy.io/)
