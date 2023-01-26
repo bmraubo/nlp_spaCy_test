@@ -2,6 +2,12 @@
 
 #### This is a test of using Python + SpaCy to create summaries of web articles.
 
+### Installation Instructions
+
+```
+pip install -r requirements.txt
+```
+
 ### Useful links
 
 [SpaCy](https://spacy.io/)
